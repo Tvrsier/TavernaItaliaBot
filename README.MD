@@ -39,3 +39,5 @@ TavernaBot/
 ├── info.py                 # Project metadata
 ├── README.md
 └── LICENSE
+└── launcher.py             # bootstrap Bot launcher
+```

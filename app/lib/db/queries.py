@@ -2,7 +2,7 @@ from typing import List
 
 from discord import Guild
 
-from app.lib.db.scheme import CommandEnum, CommandPermissionSchema, GuildSchema
+from app.lib.db.schemes import CommandEnum, CommandPermissionSchema, GuildSchema
 from app.logger import logger
 
 

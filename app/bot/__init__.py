@@ -12,7 +12,7 @@ from discord.ext.commands import Context, Bot
 from app.lib.db import DatabaseManager
 from app.logger import logger
 from app.lib.extension_context import TavernaContext, TavernaApplicationContext
-from app.lib.db.scheme import GuildSchema
+from app.lib.db.schemes import GuildSchema
 
 
 ANY_CONTEXT = Union[Context, ApplicationContext]

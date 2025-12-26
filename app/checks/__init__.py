@@ -2,7 +2,7 @@ from discord.ext import commands
 
 from app.bot import ANY_CONTEXT
 from app.lib.db.queries import get_command_permission
-from app.lib.db.scheme import CommandEnum
+from app.lib.db.schemes import CommandEnum
 from app.logger import logger
 
 
